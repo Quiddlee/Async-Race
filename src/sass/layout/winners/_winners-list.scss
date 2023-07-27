@@ -1,0 +1,29 @@
+.winners-list {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &__item {
+    display: grid;
+    grid-template-columns: .6fr repeat(4, 1fr);
+    align-items: center;
+    justify-content: left;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    gap: 5rem;
+    border-bottom: .1rem solid var(--color-grey-lightest);
+
+    animation: car-fade-in .4s cubic-bezier(.44, 2, .2, .79) backwards;
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
+
+  &__car {
+    width: 6rem;
+    max-height: 4rem;
+  }
+}

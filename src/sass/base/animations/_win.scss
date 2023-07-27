@@ -1,0 +1,61 @@
+@keyframes win-fade-in {
+  0% {
+    opacity: 0;
+    scale: .3 1;
+    translate: 0 270%;
+  }
+  100% {
+    translate: 0;
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes win-fade-out {
+  0% {
+    translate: 0;
+    scale: 1;
+    opacity: 1;
+  }
+
+  30% {
+    filter: blur(.07rem) saturate(1.2);
+  }
+
+  100% {
+    filter: blur(0);
+    opacity: 0;
+    scale: .3;
+    translate: 0 200%;
+  }
+}
+
+@keyframes win-idle {
+  0% {
+    scale: 1;
+    translate: 0;
+    transform: skewY(-6deg);
+  }
+  50% {
+    scale: .97;
+    translate: 0 3%;
+    transform: skewY(-4deg);
+  }
+  100% {
+    scale: 1;
+    translate: 0;
+    transform: skewY(-6deg);
+  }
+}
+
+@keyframes win-idle-float {
+  0% {
+    translate: 0;
+  }
+  50% {
+    translate: 0 7%;
+  }
+  100% {
+    translate: 0;
+  }
+}

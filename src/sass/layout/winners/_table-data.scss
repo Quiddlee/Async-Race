@@ -1,0 +1,14 @@
+.table-data {
+  display: inline-grid;
+  grid-template-columns: .6fr .85fr .9fr .9fr 1fr;
+  justify-content: left;
+  gap: 5rem;
+  background-image: linear-gradient(130deg, var(--color-accent-light), var(--color-accent));
+  border-radius: 2.4rem;
+  color: var(--color-secondary);
+
+  &__best-time,
+  &__wins {
+    cursor: pointer;
+  }
+}

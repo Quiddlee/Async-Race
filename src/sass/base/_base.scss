@@ -1,0 +1,47 @@
+@use "../abstracts/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @include mixins.respond(tab-land) {
+    font-size: 50%;
+  }
+
+  @include mixins.respond(phone) {
+    font-size: 31.25%;
+  }
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 2rem;
+
+  color: var(--color-text-dark);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-primary)
+}
+
+::-webkit-scrollbar {
+  width: 1.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent-light);
+  border-radius: 600px;
+  border: .4rem solid var(--color-primary);
+}

@@ -1,0 +1,20 @@
+:root {
+  --color-primary: hsl(0deg, 0%, 100%);
+  --color-secondary: hsl(72deg, 33%, 97%);
+
+  --color-accent: hsl(5deg, 100%, 69%);
+  --color-accent-secondary: hsl(330, 86%, 77%);
+
+  --color-accent-dark: hsl(5deg, 75%, 85%);
+  --color-accent-lightest: hsl(5deg, 100%, 95%);
+  --color-accent-super-light: hsl(5deg, 200%, 97%);
+  --color-accent-light: hsl(5deg, 100%, 80%);
+
+  --color-grey: hsl(0deg, 0%, 20%);
+  --color-grey-light: hsl(0deg, 0%, 40%);
+  --color-grey-lightest: hsl(0deg, 0%, 60%);
+  --color-text-dark: hsl(330deg, 3%, 17%);
+
+  --shadow-btn: hsla(330deg, 5%, 10%, .2);
+  --shadow-win: hsla(0deg, 0%, 0%, .2);
+}

@@ -1,0 +1,27 @@
+@use "../abstracts/mixins";
+
+#app {
+  display: grid;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+
+  @include mixins.respond(tab-port) {
+    padding: 1.2rem;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+
+  &--garage {
+    top: -100%;
+    translate: -3rem;
+  }
+
+  &--winners {
+    translate: 3rem;
+  }
+}

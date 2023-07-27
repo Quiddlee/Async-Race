@@ -1,0 +1,25 @@
+@keyframes car-fade-in {
+  0% {
+    opacity: 0;
+    scale: .9;
+    translate: 0 10%;
+  }
+  100% {
+    translate: 0;
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    translate: -30%;
+    opacity: 0;
+    scale: .7;
+  }
+  100% {
+    translate: 0;
+    scale: 1;
+    opacity: 1;
+  }
+}

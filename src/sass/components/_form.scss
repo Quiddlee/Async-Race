@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  &__input {
+    position: relative;
+  }
+}

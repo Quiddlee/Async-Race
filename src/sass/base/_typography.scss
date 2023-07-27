@@ -1,0 +1,23 @@
+.title {
+  font-size: 3rem;
+
+  &--car {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+
+    background-image: linear-gradient(
+        130deg,
+        var(--color-accent-secondary),
+        var(--color-accent)
+    );
+    color: var(--color-secondary);
+
+    margin-top: -3.2rem;
+    transform: skewY(-6deg);
+  }
+
+  &--form {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

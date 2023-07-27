@@ -1,0 +1,70 @@
+@use '../abstracts/mixins';
+
+.btn {
+  @include mixins.flex-center;
+
+  padding: .2rem 1.2rem;
+
+  border: none;
+  border-radius: 100rem;
+
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+  color: inherit;
+  cursor: pointer;
+  background-color: var(--color-primary);
+
+  box-shadow: .1rem .2rem .3rem var(--shadow-btn);
+  transition: .2s all;
+
+  &:hover {
+    box-shadow: .1rem .2rem .8rem var(--shadow-btn);
+    translate: 0 -.2rem;
+  }
+
+  &:active {
+    transition: .05s all;
+    box-shadow: .1rem .2rem .3rem var(--shadow-btn);
+    translate: inherit;
+  }
+
+  &--primary {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    border: none;
+  }
+
+  &--secondary {
+    background-color: var(--color-accent-lightest);
+    opacity: .7;
+    color: var(--color-accent);
+  }
+
+  &--tertiary {
+    border: .1rem solid var(--color-accent-lightest);
+    opacity: .7;
+    color: var(--color-accent);
+  }
+
+  &--disabled {
+    opacity: .3;
+    cursor: unset;
+    pointer-events: none;
+
+    &:hover {
+      translate: 0;
+    }
+  }
+
+  &--active {
+    border: .1rem solid var(--color-accent);
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    box-shadow: .1rem .2rem .8rem var(--shadow-btn);
+    translate: 0 -.3rem;
+    filter: saturate(1.2);
+  }
+}

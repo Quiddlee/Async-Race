@@ -1,0 +1,14 @@
+export const TIMEOUT_SECONDS = 20;
+export const DEFAULT_SELECTED_CAR_ID = 1;
+export const DEFAULT_GARAGE_PAGE = 1;
+export const GARAGE_TOTAL_CARS_ON_ONE_PAGE = 7;
+export const MAX_HEXADECIMAL_VAL = 16_777_215;
+export const RADIX_HEX = 16;
+export const GENERATE_CARS_COUNT = 100;
+export const DEFAULT_WIN_VALUE = 1;
+export const DEFAULT_WINNERS_PAGE = 1;
+export const DEFAULT_TOTAL_WINNER = 0;
+export const DEFAULT_WINNERS_NUM_OF_PAGES = 0;
+export const DEFAULT_TOTAL_NUM_OF_CARS = 0;
+export const DEFAULT_GARAGE_NUM_OF_PAGES = 0;
+export const WINNERS_TOTAL_CARS_ON_ONE_PAGE = 10;
