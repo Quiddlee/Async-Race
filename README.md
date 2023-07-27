@@ -1,11 +1,16 @@
 # **🏁🏎️ Async-Race | RS School Task**
 
+*Customer has an idea to spend his money. He has hired some engineers who installed some radio-controlled equipment 📻 to real cars 🚗. To the all his collection of cars to be precise. He is eager to create kind of drag-racing competition in order to discover which car fastest.*
+
+*Each radio-controller has an HTTP-compatible interface. It's let you to start or stop engine of the car and of course enable "driving" mode.*
+
 # Setup and Running ⚠️
-- Use node 14.x or higher.
-- Click the green button saying "Code", and then choose the "Download ZIP" option.
-- Go to downloaded folder: $ cd async-race-api.
-- Install dependencies: $ npm install.
-- Start server: $ npm start.
+- Use node 14.x or higher. ⚡
+- Follow the link - https://github.com/mikhama/async-race-api. 🌌
+- Click the green button saying "Code", and then choose the "Download ZIP" option. 📥
+- Go to downloaded folder: $ cd async-race-api. 📁
+- Install dependencies: $ npm install. 📦
+- Start server: $ npm start. 🤩
 
 **👀 Preview - https://quiddlee.github.io/Async-Race**
 
