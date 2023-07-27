@@ -1,6 +1,6 @@
 # **🏁🏎️ Async-Race | RS School Task**
 
-# Setup and Running
+# Setup and Running ⚠️
 - Use node 14.x or higher.
 - Click the green button saying "Code", and then choose the "Download ZIP" option.
 - Go to downloaded folder: $ cd async-race-api.
